@@ -1,0 +1,3 @@
+Generally speaking,read-write speed in /data,/cache and /system is  faster than /sdcard,if your /data,/cache and /system has large free space,you can decompile and recompile at these folders.For example ,use root explorer to change the permissions of /cache to 0777,then create a empty folder named app in /cache,copy your apk file to /cache/app and decompile it.I cost more than ten minutes at /sdcard decompiling framework-res.apk with my phone,but less than 2 minutes at /cache/app.
+
+Sorry about my pool English,but I am a Chinese.

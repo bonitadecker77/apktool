@@ -1,0 +1,2 @@
+This application can also extract android boot.img/recovery.img.You should do it at /cache,/data or /system rather than /sdcard because of fat32 filesystem.Copy your boot.img to /cache/subfolder,then single touch boot.img and choose "extract".You will see new file named kernel and new folder ramdisk if no error occur.You can only edit files in ramdisk folder.Single touch ramdisk and choose "repack" can make the new boot.img which named new.img.
+recovery.img is the same.
